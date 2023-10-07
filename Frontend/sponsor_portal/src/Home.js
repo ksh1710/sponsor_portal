@@ -1,11 +1,18 @@
-import './Home.css';
+import "./Home.css";
+import { Container, Typography } from "@mui/material";
 
 function Home() {
   return (
-    <div className="Home_content">
-      <h1>Home</h1>
-      <p>This is the home page.</p>
-    </div>
+    <>
+      <Container>
+        <div className="Home_header">
+          <Typography variant="h5">
+          Welcome to the Sponsor Portal! Please use the navigation bar to the
+          left to navigate the portal.
+        </Typography>
+        </div>
+      </Container>
+    </>
   );
 }
 
